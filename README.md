@@ -20,6 +20,7 @@ For help contact `afluo [a.t] andrew.cmu.edu` or open an issue
    * matplotlib
    * numpy
    * skimage (for SPADE based shading)
+   * imageio (for SPADE based shading)
    * shapely (eval only)
    * PyWavefront (for scene refinement only, loading of 3d meshes)
    * PyMesh (for scene refnement only, remeshing of SUNCG objects)
