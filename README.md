@@ -127,11 +127,11 @@ You can either define your own scene graph (see the `produce_heatmap` function i
 `python test.py --measure_acc_l1_std`
 
 * To plot the scene from a top down view with ScanNet colors (doesn't requrie SUNCG):  
-`python test.py --plot2d`  
+`python test.py --draw_2d`  
 Please provide a (O+1 x 6) tensor of bounding boxes, and a (O+1,) tensor of rotations. The last object should be the bounding box of the room
 
 * To plot 3D  
-`python test.py --plot3d`  
+`python test.py --draw_3d`  
 This calls into `test_plot3d.py`, which in turn launched Blender, and executes `render_caller.py`, you can put in specific rooms by editing this file. The full rendering function is located in `render_room_color.py`. 
 
 * To use a neural renderer to refine a room  
