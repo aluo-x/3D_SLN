@@ -2,7 +2,10 @@
 
 ![Teaser Image](https://raw.githubusercontent.com/aluo-x/3D_SLN/master/result.jpg)
 Code release for:
-**End-to-End Optimization of Scene Layout**  CVPR 2020 (Oral) [Project site](http://3dsln.csail.mit.edu/),  [Bibtex](http://3dsln.csail.mit.edu/bibtex/3dsln_cvpr.bib) 
+**End-to-End Optimization of Scene Layout**  CVPR 2020 (Oral) 
+
+[Project site](http://3dsln.csail.mit.edu/),  [Bibtex](http://3dsln.csail.mit.edu/bibtex/3dsln_cvpr.bib) 
+
 For help contact `afluo [a.t] andrew.cmu.edu` or open an issue
 * Requirements  
    * Pytorch 1.2 (for everything)
