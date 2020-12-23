@@ -1,9 +1,8 @@
-# 3D SLN 
-Code release for:
+# End-to-End Optimization of Scene Layout
 
-**End-to-End Optimization of Scene Layout**  
-Andrew Luo, Zhoutong Zhang, Jiajun Wu, and Joshua B. Tenenbaum  
-CVPR 2020 (Oral) [Project site](http://3dsln.csail.mit.edu/),  [Bibtex](http://3dsln.csail.mit.edu/bibtex/3dsln_cvpr.bib)  
+![Teaser Image](https://raw.githubusercontent.com/aluo-x/3D_SLN/master/result.jpg)
+Code release for:
+**End-to-End Optimization of Scene Layout**  CVPR 2020 (Oral) [Project site](http://3dsln.csail.mit.edu/),  [Bibtex](http://3dsln.csail.mit.edu/bibtex/3dsln_cvpr.bib) 
 For help contact `afluo [a.t] andrew.cmu.edu` or open an issue
 * Requirements  
    * Pytorch 1.2 (for everything)
@@ -144,3 +143,16 @@ We set a manual seed for demonstration purposes, in practice please remove this.
 `python test.py --gan_shade`
 This will first call into `semantic_depth_caller.py` to produce the semantic and depth maps, then use SPADE to generate RGB images.
 
+## Citation
+
+If you find this repo useful for your research, please consider citing the paper
+
+```
+@inproceedings{luo2020end,
+  title={End-to-End Optimization of Scene Layout},
+  author={Luo, Andrew and Zhang, Zhoutong and Wu, Jiajun and Tenenbaum, Joshua B},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={3754--3763},
+  year={2020}
+}
+```
